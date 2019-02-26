@@ -1,5 +1,5 @@
-## **Docs, Info, etc:** https://dev.twitch.tv/docs/api
-## Twitch Legacy API v5 Kraken is NOT supported.
+## **Docs, Info, etc:** https://dev.twitch.tv/docs/api/reference/
+## Twitch Legacy API v5 Kraken or older is NOT supported.
 # Follow & Subscribe my Nim coding live stream: https://www.twitch.tv/juancarlospaco
 import asyncdispatch, httpclient, strutils, json
 
@@ -98,5 +98,44 @@ proc foo(this: Twitch | AsyncTwitch): Future[JsonNode] {.multisync.} =
     &client_secret=<your client secret>
     &grant_type=client_credentials
     &scope=<space-separated list of scopes>
+
+
+
+# Analytics ###################################################################
+
+
+# Bits ########################################################################
+
+
+# Clips #######################################################################
+
+# Entitlements ################################################################
+
+
+# Games #######################################################################
+
+# Streams #####################################################################
+
+
+# Subscriptions ###############################################################
+
+
+
+# Tags ########################################################################
+
+
+
+
+# Users #######################################################################
+
+
+
+
+# Videos ######################################################################
+
+
+
+# Webhooks ####################################################################
+
 
 
